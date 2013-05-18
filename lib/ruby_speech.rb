@@ -3,7 +3,8 @@
   active_support/core_ext/object/blank
   active_support/core_ext/numeric/time
   active_support/core_ext/enumerable
-  niceogiri
+  nokogiri
+  ruby_speech/niceogiri
 }.each { |f| require f }
 
 module RubySpeech
